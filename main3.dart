@@ -1,10 +1,10 @@
 enum Weekday { monday, tuesday, wednesday, thursday, friday, saturday, sunday }
 
 void main() {
-  Weekday? weekday;
+  Weekday? weekday = Weekday.wednesday;
   switch (Weekday) {
-    case 1:
-      weekday == Weekday.monday || weekday == Weekday.tuesday;
+    case Weekday.monday:
+    case Weekday.tuesday:
       {
         print('Montage und Dienstage sind anstrengend');
       }
