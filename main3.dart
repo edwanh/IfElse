@@ -13,7 +13,7 @@ void main() {
       {
         print('Mittwoch und Donnerstag sind ok');
       }
-    case Weekday.friday
+    case Weekday.friday:
       {
         print('Freitag ist super');
       }
