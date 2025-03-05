@@ -8,13 +8,12 @@ void main() {
       {
         print('Montage und Dienstage sind anstrengend');
       }
-    case 2:
-      weekday == Weekday.wednesday || weekday == Weekday.thursday;
+    case Weekday.wednesday:
+    case Weekday.thursday:
       {
         print('Mittwoch und Donnerstag sind ok');
       }
-    case 3:
-      weekday == Weekday.friday;
+    case Weekday.friday
       {
         print('Freitag ist super');
       }
